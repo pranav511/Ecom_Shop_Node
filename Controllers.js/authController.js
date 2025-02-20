@@ -61,7 +61,7 @@ exports.login = async (req, res) => {
             },
             "demoKey",
             {
-                expiresIn: '1h',
+                expiresIn: '3h',
             }
         );
         
